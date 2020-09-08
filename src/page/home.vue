@@ -103,7 +103,7 @@ export default {
     z-index: 1;
   }
   &__buttons {
-    display: inline-block;
+    display: block;
     margin-left: auto;
     float: right;
 

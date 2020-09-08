@@ -2,6 +2,7 @@
   <div class="block-colors">
     <h2 class="block-colors__title">COLORS</h2>
     <v-add-button
+      v-if="!activeColor.length"
       style="max-width: 120px"
       :text="'Add'"
       :type="'color-button__add'"
@@ -72,10 +73,10 @@ export default {
     display: flex;
     flex-wrap: wrap;
     .color-tag {
-      flex: 0 0 20%;
+      flex: 0 0 25%;
       display: flex;
       justify-content: center;
-      margin: 10px;
+      margin: 5px 10px 5px 0;
       border-radius: 10px;
       padding: 3px 5px;
     }
@@ -90,7 +91,7 @@ export default {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 10px;
+      margin-top: 5px;
     }
   }
 }
