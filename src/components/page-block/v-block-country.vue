@@ -68,6 +68,7 @@ export default {
   &__blocks {
     display: flex;
     flex-direction: column;
+    margin: 5px 0;
   }
   &__flag {
     width: 20px;
