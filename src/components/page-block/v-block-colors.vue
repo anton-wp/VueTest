@@ -52,7 +52,6 @@ export default {
       this.colorModal = false
     },
     saveColor(colors) {
-      console.log(colors)
       this.activeColor = colors
       this.colorModal = false
     },
